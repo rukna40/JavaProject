@@ -1,0 +1,33 @@
+/* style.css */
+
+/* Root Node (VBox) */
+.background {
+    -fx-background-color: rgb(232, 215, 82); /* Light gray background color */
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #4caf50; /* Green button color */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px; /* Font size */
+}
+
+.button:hover {
+    -fx-background-color: #305f32; /* Darker green on hover */
+}
+
+/* Error Pop-up dialogs */
+.error-dialog {
+    -fx-background-color: #ffcccc; /* Light red background color */
+}
+
+/* Header of error dialogs */
+.error-dialog .header-panel {
+    -fx-background-color: #ff6666; /* Darker red header color */
+    -fx-text-fill: white; /* White header text color */
+}
+
+/* Content area of error dialogs */
+.error-dialog .content {
+    -fx-background-color: #ffe6e6; /* Light pink content background color */
+}
